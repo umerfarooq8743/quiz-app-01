@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Quiz app</title>
+    <style>
+        .font25px{
+            font-size: 25px;
+        }
+        .fontdesign{
+            font-family:cursive
+        }
+    </style>
+</head>
+<body class="container bg-black text-secondary">
+    <P class="fw-bolder text-info text-center" style="font-size: 120px;"> QUIZ <span><br>APPLICATION</span></P>
+
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6 fontdesign">
+        <fieldset>
+            <p class="text-center   font25px">
+                    Q1-what is sum of 6+6?
+            </p>
+            <input type="radio" name="math-question1" id="q1a1" >12
+            </input> <br>
+            <input type="radio" name="math-question1" id="q1a2" >19
+            </input> <br>
+            <input type="radio" name="math-question1" id="q1a3" >20
+            </input> <br>
+            <input type="radio" name="math-question1" id="q1a4" >7
+            </input> <br>
+        </fieldset> <br>
+        <fieldset>
+            <p class="text-center   font25px">
+                    Q2-what is sum of 2+6?
+            </p>
+            <input type="radio" name="math-question2" id="q2a1" >12
+            </input> <br>
+            <input type="radio" name="math-question2" id="q2a2" >19
+            </input> <br>
+            <input type="radio" name="math-question2" id="q2a3" >10
+            </input> <br>
+            <input type="radio" name="math-question2" id="q2a4" >8
+            </input> <br>
+        </fieldset> <br>
+        <fieldset>
+            <p class="text-center   font25px">
+                    Q3-what is sum of 11+6?
+            </p>
+            <input type="radio" name="math-question3" id="q3a1" >17
+            </input> <br>
+            <input type="radio" name="math-question3" id="q3a2" >19
+            </input> <br>
+            <input type="radio" name="math-question3" id="q3a3" >20
+            </input> <br>
+            <input type="radio" name="math-question3" id="q3a4" >3
+            </input> <br>
+        </fieldset> <br>
+        <fieldset>
+            <p class="text-center   font25px">
+                    Q4-what is sum of 6+9?
+            </p>
+            <input type="radio" name="math-question4" id="q4a1" >15
+            </input> <br>
+            <input type="radio" name="math-question4" id="q4a2" >21
+            </input> <br>
+            <input type="radio" name="math-question4" id="q4a3" >26
+            </input> <br>
+            <input type="radio" name="math-question4" id="q4a4" >2
+            </input> <br>
+        </fieldset> <br>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+
+   <div class="row">
+    <div class="col-md-3"></div>
+   <div class="col-md-6 d-grid gap-2  mx-auto my-3"> <button class="btn btn-lg btn-success " onclick="check()"> <span class="fw-bold fontdesign">Result !</span></button></div>
+   <div class="col-md-3"></div>
+   </div>
+
+<script src="app.js"></script></body>
+</html>
